@@ -1,0 +1,14 @@
+.texto{
+    font-family: 'Tiro Gurmukhi', serif;
+    text-align: center;
+    background-color: rgb(83, 83, 17);
+}
+.texto2{
+    text-align: center;
+    font-size: 10px;
+    color:white;
+}
+.fondo{
+    background-color: black;
+    color:white;
+}

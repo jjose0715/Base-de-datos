@@ -56,12 +56,27 @@
     </header>
     <main >
         <div class="container">
+            <div class="row">
+                <h1>registro</h1>
+            </div>
+        </div>
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-6">
                     <form action="">
                         <div class="mb-3">
-                            <label class="form-label">Nombre completo</label>
+                            <label class="form-label">Nombres</label>
                             <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">apellido</label>
+                            <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">acudiente</label>
+                            <input type="text" class="form-control" id="acudiente" aria-describedby="emailHelp">
                         </div>
 
                         <div class="mb-3">
@@ -76,20 +91,30 @@
 
                         <div class="mb-3">
                             <label class="form-label">fecha</label>
-                            <input type="text" class="form-control" id="fecha" aria-describedby="emailHelp">
+                            <input type="text" class="form-control" id="fecha   " aria-describedby="emailHelp">
                         </div>
 
-                        <div1 class="mb-3">
-                            <label class="form-label">contraseña</label>
-                            <input type="password" class="form-control" id="contraseña" aria-describedby="emailHelp">
-                        </div1>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="div1">contraseña</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                        <div class="mb-3">
+                            <label class="form-label">direccion</label>
+                            <input type="text" class="form-control" id="direccion" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">barrio</label>
+                            <input type="text" class="form-control" id="barrio" aria-describedby="emailHelp">
+                        </div>
+
+                        <select id="estrato" class="form-select mb-3" aria-label="Default select example">
+                            <option selected>Barrio</option>
+                            <option value="div1">El Poblado.</option>
+                            <option value="2">Santo Domingo Savio</option>
+                            <option value="3">Sabaneta</option>
+                            <option value="4">Belén</option>
+                            <option value="5">Laureles</option>
+                            <option value="6">Prado</option>
+                            <option value="7">otro</option>
                         </select>
-                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        <button type="submit" id="boton" class="btn btn-primary w-100 mb-3">enviar</button>
                     </form>
                 </div>
             </div>
@@ -110,7 +135,7 @@
             </div>
         </div>
     </footer>
-    <script src="controlador.js">
+    <script src="cues estu.js">
 
     </script>
     <!-- JavaScript Bundle with Popper -->
